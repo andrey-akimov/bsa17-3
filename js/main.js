@@ -1,4 +1,4 @@
-window.onload = function() {
+(function() {
 	
 	let request = new XMLHttpRequest();
 	request.open('GET', 'https://api.myjson.com/bins/152f9j', true);
@@ -138,4 +138,4 @@ window.onload = function() {
 		}
 	};
 
-}
+})()
